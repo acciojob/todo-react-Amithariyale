@@ -1,1 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+#main_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#main_container form h2 {
+    text-align: center;
+    color: gray;
+}
+
+#main_container input,
+#main_container button {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+#main_container button {
+    cursor: pointer;
+}
+
+#main_container ul {
+    width: 80%;
+}
+
+#main_container ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.4rem;
+}
